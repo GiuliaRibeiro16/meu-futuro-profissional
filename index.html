@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giulia Reis Ribeiro | Meu Futuro Profissional</title>
+  <meta name="description" content="Portfólio de Giulia Reis Ribeiro: da tecnologia à Farmácia, com foco em cosmetologia e beleza.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="logo" href="#inicio"><span class="cruz" aria-hidden="true"></span>Giulia Reis</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">Menu</button>
+    <nav id="menu" aria-label="Principal">
+      <a href="#inicio">Início</a>
+      <a href="#trajetoria">Trajetória</a>
+      <a href="#profissao">Profissão</a>
+      <a href="#objetivos">Objetivos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#tecnologia">Tecnologia</a>
+      <button class="tema-btn" id="temaBtn" aria-label="Alternar tema claro e escuro">Tema escuro</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-texto">
+        <h1>Da tecnologia à beleza, com ciência.</h1>
+        <p>Olá, eu sou a Giulia! Estudo Desenvolvimento de Sistemas, mas meu futuro está na Farmácia. Gosto de cozinhar, de cuidar de cabelo e me interesso por cosmetologia. Quero unir ciência, tecnologia e criatividade para trabalhar com beleza e bem-estar.</p>
+        <a class="botao" href="#trajetoria">Conheça minha trajetória</a>
+      </div>
+      <aside class="rotulo" aria-label="Resumo pessoal em formato de rótulo de medicamento">
+        <div class="rotulo-topo">Receita para o futuro</div>
+        <dl>
+          <dt>Paciente</dt><dd>Giulia Reis Ribeiro</dd>
+          <dt>Fórmula</dt><dd>Desenvolvimento de Sistemas (SENAI)</dd>
+          <dt>Indicação</dt><dd>Futura farmacêutica na área da beleza</dd>
+          <dt>Posologia</dt><dd>Criatividade e ciência, todos os dias</dd>
+          <dt>Interesses</dt><dd>Cozinhar, cabelo e cosmetologia</dd>
+        </dl>
+      </aside>
+    </section>
+
+    <section id="trajetoria" class="secao">
+      <h2>Trajetória acadêmica</h2>
+      <p class="intro">Clique em cada etapa para ver o que aprendi nela.</p>
+      <ol class="linha-tempo">
+        <li>
+          <button class="etapa" aria-expanded="false"><span class="ano">Base</span> Ensino Médio <span class="sinal" aria-hidden="true">+</span></button>
+          <div class="etapa-texto"><p>Minha base de estudos, onde desenvolvi o interesse por química e biologia, matérias essenciais para quem quer seguir em Farmácia.</p></div>
+        </li>
+        <li>
+          <button class="etapa" aria-expanded="false"><span class="ano">Atual</span> Desenvolvimento de Sistemas no SENAI <span class="sinal" aria-hidden="true">+</span></button>
+          <div class="etapa-texto"><p>No curso aprendi lógica de programação, HTML, CSS, JavaScript e a publicar projetos na internet com GitHub. Esse conhecimento me ajuda a pensar de forma organizada e a resolver problemas, habilidades úteis em qualquer profissão.</p></div>
+        </li>
+        <li>
+          <button class="etapa" aria-expanded="false"><span class="ano">Extra</span> Cursos de cabeleireira e maquiagem <span class="sinal" aria-hidden="true">+</span></button>
+          <div class="etapa-texto"><p>Fiz cursos de cabeleireira e de maquiagem. Neles aprendi na prática sobre tipos de cabelo, pele, produtos e atendimento ao cliente, o que reforçou minha vontade de trabalhar com beleza.</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="profissao" class="secao faixa">
+      <h2>Profissão desejada: Farmácia</h2>
+      <div class="duas-colunas">
+        <p>Quero cursar Farmácia e me tornar farmacêutica. É uma profissão que une química, biologia e responsabilidade, e abre portas para criar, testar e garantir a segurança de produtos que as pessoas usam no dia a dia.</p>
+        <p><strong>Por que escolhi essa carreira?</strong> Porque quero seguir na área da beleza e gosto muito dela. A Farmácia me permite entender, por trás de cada creme, shampoo ou maquiagem, como os ingredientes funcionam e como produzir cosméticos seguros e eficazes.</p>
+      </div>
+      <p class="areas-titulo">Áreas em que posso atuar:</p>
+      <ul class="chips">
+        <li>Cosmetologia</li><li>Indústria de cosméticos</li><li>Farmácia de manipulação</li>
+        <li>Dermocosméticos</li><li>Estética</li><li>Pesquisa e desenvolvimento</li>
+      </ul>
+    </section>
+
+    <section id="objetivos" class="secao">
+      <h2>Objetivos profissionais</h2>
+      <p class="intro">Marque as metas que eu já conquistei.</p>
+      <div class="progresso" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="barra"><span id="barraPreenchida"></span></div>
+      <p id="progressoTexto" class="progresso-texto">0 de 5 metas concluídas</p>
+      <ul class="metas">
+        <li><label><input type="checkbox"> Concluir o curso de Desenvolvimento de Sistemas</label></li>
+        <li><label><input type="checkbox"> Me preparar para o ENEM e vestibulares</label></li>
+        <li><label><input type="checkbox"> Ingressar na faculdade de Farmácia</label></li>
+        <li><label><input type="checkbox"> Fazer estágio em farmácia de manipulação ou indústria de cosméticos</label></li>
+        <li><label><input type="checkbox"> Me especializar em Cosmetologia</label></li>
+      </ul>
+    </section>
+
+    <section id="habilidades" class="secao faixa">
+      <h2>Habilidades e interesses</h2>
+      <div class="grade">
+        <article class="cartao"><h3>Habilidades técnicas</h3><p>HTML, CSS, JavaScript, lógica de programação e uso do GitHub.</p></article>
+        <article class="cartao"><h3>Habilidades de beleza</h3><p>Cabeleireira e maquiagem, com noção de atendimento, higiene e cuidado com o cliente.</p></article>
+        <article class="cartao"><h3>Cozinhar</h3><p>Seguir receitas exige medidas exatas, atenção e criatividade, o mesmo cuidado de uma fórmula em laboratório.</p></article>
+        <article class="cartao"><h3>Gosto de estudar</h3><p>Cosmetologia, cuidados com o cabelo e a pele, ingredientes e como os produtos funcionam.</p></article>
+      </div>
+    </section>
+
+    <section id="tecnologia" class="secao">
+      <h2>Tecnologia na Farmácia e na beleza</h2>
+      <p class="intro">Toque em cada item para abrir a "bula".</p>
+      <div class="bulas">
+        <details><summary>Controle de estoque e validade</summary><p>Sistemas de gestão avisam quando um produto está acabando ou perto de vencer, evitando perdas e garantindo segurança para o cliente.</p></details>
+        <details><summary>Fórmulas e cálculos automatizados</summary><p>Em farmácias de manipulação, programas calculam quantidades e registram cada fórmula com precisão, reduzindo erros.</p></details>
+        <details><summary>Inteligência Artificial e análise de dados</summary><p>A IA ajuda a pesquisar novos ingredientes, prever a reação da pele a produtos e entender o que os consumidores procuram.</p></details>
+        <details><summary>Aplicativos e simuladores de beleza</summary><p>Apps já indicam produtos para cada tipo de pele e cabelo e simulam maquiagens com realidade aumentada. Com programação, posso criar soluções assim.</p></details>
+        <details><summary>Vendas online e atendimento digital</summary><p>Sites e redes sociais permitem divulgar produtos e orientar clientes a distância. Saber criar páginas como esta é uma vantagem para empreender.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Giulia Reis Ribeiro · Portfólio feito com HTML, CSS e JavaScript · SENAI</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
